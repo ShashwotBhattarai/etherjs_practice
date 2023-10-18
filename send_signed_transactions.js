@@ -1,6 +1,5 @@
 const { ethers } = require("ethers");
 
-const INFURA_ID = ''
 const provider = new ethers.providers.JsonRpcProvider(`https://sepolia.infura.io/v3/54f372a21e6e421cb4e95ed43cc57d2a`)
 
 const account1 = '0x0Ed441E62368dE728C9cde8873CcAd94D105e12E' // Your account address 1 sender
